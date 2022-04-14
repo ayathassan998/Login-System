@@ -1,0 +1,68 @@
+.shadow {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+}
+
+.main_back_color {
+    background-color: rgb(36, 53, 63);
+}
+
+.main_text_color {
+    color: rgb(23, 162, 184);
+}
+
+.text_secondary {
+    color: #ffc107;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff !important;
+}
+
+.main_header .btn {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ffc107;
+}
+
+.main_header .btn:hover {
+    background-color: #ffc107;
+    color: rgba(255, 255, 255, .75);
+}
+
+.form_section .btn {
+    color: rgb(23, 162, 184);
+    border: 1px solid rgb(23, 162, 184);
+}
+
+.form_section .btn:hover {
+    background-color: rgb(23, 162, 184);
+    color: rgba(255, 255, 255, .75);
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.form_section a:hover {
+    text-decoration: underline !important;
+}
+
+.alert {
+    display: none;
+}

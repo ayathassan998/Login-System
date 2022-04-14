@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login_Page</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description" content="Smart Login System">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="main_back_color">
+
+    <div class="form_section text-center">
+        <div class="container my-5">
+            <div class="form_content w-75 p-5 shadow m-auto">
+                <h1 class="main_text_color">Smart Login System</h1>
+                <input id="emailBtn_Lg" class="form-control my-3" type="text" name="userName" placeholder="Enter your email" />
+                <input id="passwordBtn_Lg" class="form-control my-3" type="password" placeholder="Enter your password" />
+                <p id="alert" class="alert">
+                    <span></span>
+                </p>
+                <button onclick="signin();" id="signinBtn_Lg" class="btn form-control my-3">Login</button>
+                <p class="text-white">Don’t have an account?
+                    <a class="text-white text-decoration-none" href="sigup.html">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
